@@ -128,8 +128,6 @@ tr:nth-child(odd) {
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   margin: 20px;
-  // background-image: url("./images/grey-geometric.jpg");
-  // http://apple.stackexchange.com/questions/251180/reduce-opacity-of-existing-image
 }
 
 .work-tile-title {
