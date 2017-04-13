@@ -72,12 +72,12 @@ ul {
   list-style-type: circle;
 }
 
-.header-container, .work-experience-container, .education-container, .trainings-container, .awards-container, .references-container, .work-tile-container {
+.header-container, .work-experience-container, .education-container, .trainings-container, .awards-container, .references-container, .work-tile-container, .bio-container, .awards-main-page-container {
   width: 100%;
   padding: 25px;
 }
 
-.header-container, .education-container, .awards-container {
+.header-container, .education-container, .awards-container, .bio-container {
   background-color: #f0f0f0;
 }
 
@@ -88,7 +88,7 @@ ul {
 }
 
 .work-experience-tile, .education-tile, .awards-tile, .references-tile {
-  width: 300px;
+  width: 30%;
   border: 1px solid darkblue;
   padding: 25px;
   margin-bottom: 30px;
@@ -102,7 +102,7 @@ ul {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .training-name, .training-teacher, .training-date {
@@ -113,49 +113,98 @@ tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
 
-.work-tiles {
+.section-header-main {
+  width: 100%;
+  font-size: 20pt;
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  margin: 50px 0 50px 0;
+  
+}
+
+.work-tiles, .awards-main-page-tiles {
   margin: 20px;
   display: flex;
   justify-content: space-around;
 }
 
 .work-tile {
-  width: 250px;
-  height: 250px;
+  width: 30%;
+  min-height: 250px;
   border: 1px solid darkblue;
   padding: 15px;
   border-radius: 15px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
-  margin: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.work-tile-title {
+.work-tile-title, .awards-main-page-script {
   text-transform: uppercase;
   font-family: "Josefin Slab", serif;
   font-size: 14pt;
   text-align: center;
-  margin: 10px 0 10px 0;
+  margin: 15px 0 0 0;
 }
 
 .work-tile-title > span {
-  font-size: 12pt!important;
+  font-size: 10pt!important;
   font-family: "Open Sans Condensed"!important;
   text-transform: none!important;
 }
 
 .work-tile-logline {
   padding: 5%;
-  height: 150px;
   text-align: justify;
 }
 
 .work-tile-meets {
   font-family: "Josefin Slab", serif;
   text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.bio-tiles {}
+
+.bio-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bio-text {
+  width: 50%;
+  text-align: justify;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16pt;
 }
 
 .extra-award-info, .reference-company, .type-of-script, #gpa, #minor {
   font-size: 10pt;
   font-family: "Josefin Slab", serif;
+}
+
+.degree {
+  font-family: "Josefin Slab", serif;
+  font-size: 14pt;
+  margin-bottom: 15px;
+}
+
+.awards-main-page-tile {
+  width: 30%;
+  min-height: 100px;
+  border: 1px solid darkblue;
+  padding: 15px;
+  border-radius: 15px;
+  background: #f0f0f0;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
