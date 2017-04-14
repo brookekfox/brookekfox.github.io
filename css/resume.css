@@ -164,3 +164,26 @@ tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
 
+@media screen and (max-width: 500px) {
+  .work-experience, .education, .trainings, .awards, .references {
+    flex-direction: column!important;
+    flex-wrap: nowrap!important;
+    justify-content: center!important;
+  }
+
+  .work-experience-tile, .education-tile, .awards-tile, .references-tile {
+    min-width: 200px!important;
+    margin: 0 auto!important;
+  }
+  
+  .back-button {
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 50px!important;
+  }
+  
+  .back-button > span {
+    font-size: 10pt!important;
+  }
+}
+

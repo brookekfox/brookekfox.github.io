@@ -186,4 +186,17 @@ ul {
     flex-wrap: nowrap!important;
     justify-content: center!important;
   }
+  
+  .bio-pic {
+    width: 100px!important;
+    height: 100px!important;
+    border-radius: 100px!important;
+    margin: 0 5% 50px 5%!important;
+    background-size: cover!important;
+    background-position: center!important;
+  }
+  
+  .bio-text {
+    font-size: 12pt!important;
+  }
 }
