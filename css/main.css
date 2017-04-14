@@ -143,3 +143,25 @@ ul {
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   margin: 20px;
 }
+
+.bio-pics {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin: 0 5% 50px 5%;
+  background-size: cover;
+  background-position: center;
+}
+
+#mike-pic {
+  background-image: url('./images/mike.jpg');
+}
+
+#matt-pic {
+  border: 1px solid white;
+}
