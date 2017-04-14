@@ -127,7 +127,7 @@ ul {
 }
 
 #sub-heading {
-  font-size: 12pt;
+  font-size: 14pt;
   font-family: 'OpenSans', serif;
   margin-top: -20px;
 }
@@ -164,4 +164,26 @@ ul {
 
 #matt-pic {
   background-image: url('./images/matt.jpg');
+}
+
+#mike-name {
+  position: relative;
+}
+
+#mike-resume {
+  visibility: hidden;
+  font-size: 9pt;
+  font-family: 'OpenSans', serif;
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .work-tiles, .awards-tiles {
+    flex-direction: column!important;
+    flex-wrap: nowrap!important;
+    justify-content: center!important;
+  }
 }

@@ -3,14 +3,27 @@
   <head>
       <meta charset="utf-8">
       <title>MK &amp; MS</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="shortcut icon" type="image/x-icon" href="css/images/circles.png" />
       <link href="css/main.css" rel="stylesheet">
+      <script src="js/main.js" type="text/javascript"></script>
   </head>
   <body>
 
     <div class="header-container">
       <div class="section-header">
-        <p id="name">Matthew Kic and <a href="./mike-resume.html">Mike Sorce</a></p>
+        <p id="name">
+          <span id="matt-name">
+            <!-- <a href="./matt-resume.html">Matthew Kic</a>
+            <span id="matt-resume">click here to see resume</span> -->
+            Matthew Kic
+          </span>
+          and
+          <span id="mike-name" onmouseover="show('mike-resume')" onmouseout="hide('mike-resume')">
+            <a href="./mike-resume.html">Mike Sorce</a>
+            <span id="mike-resume">click here to see resume</span>
+          </span>
+        </p>
         <p id="sub-heading">writers</p>
       </div>
     </div>
