@@ -103,8 +103,8 @@ ul {
   min-width: 300px;
   min-height: 275px;
   border: 1px solid darkblue;
-  padding: 15px;
-  border-radius: 15px;
+  padding: 35px;
+  border-radius: 25px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   margin: 10px;
@@ -113,9 +113,9 @@ ul {
 .education-tile, .awards-tile {
   width: 30%;
   border: 1px solid darkblue;
-  padding: 25px;
+  padding: 35px;
   margin-bottom: 30px;
-  border-radius: 15px;
+  border-radius: 25px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   vertical-align: middle;
@@ -129,9 +129,9 @@ ul {
   width: 20%!important;
   min-width: 100px;
   border: 1px solid darkblue;
-  padding: 25px;
+  padding: 35px;
   margin-bottom: 30px;
-  border-radius: 15px;
+  border-radius: 25px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
 }
@@ -151,9 +151,11 @@ ul {
 
 .training-name, .training-teacher, .training-date {
   width: 15%;
+  font-size: 12pt;
+  padding: 5px;
 }
 
-.extra-award-info, .reference-company, .type-of-script, #gpa, #minor {
+.extra-info {
   font-size: 10pt;
   font-family: 'Josefin', serif;
 }

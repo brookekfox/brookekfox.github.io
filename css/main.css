@@ -71,7 +71,7 @@ ul {
   min-height: 275px;
   border: 1px solid darkblue;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 25px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   margin: 10px;
@@ -138,7 +138,7 @@ ul {
   min-height: 80px;
   border: 1px solid darkblue;
   padding: 20px 25px 20px 15px;
-  border-radius: 15px;
+  border-radius: 25px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   margin: 20px;
