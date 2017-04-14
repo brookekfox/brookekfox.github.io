@@ -1,5 +1,16 @@
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  src: url('./fonts/OpenSans-CondLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Josefin';
+  font-style: normal;
+  src: url('./fonts/JosefinSlab-Regular.ttf') format('truetype');
+}
+
 body {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'OpenSans', sans-serif;
   color: darkblue;
   display: flex;
   flex-direction: row;
@@ -7,61 +18,28 @@ body {
   justify-content: center;
 }
 
-.back-button {
-  width: 60px;
-  height: 60px;
-  border-radius: 40px;
-  box-shadow: 0 0 5px -1px rgba(0,0,0,0.4);
-  background-color: darkblue;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 100;
-  position: fixed;
-  right: 15px;
-  top: 15px;
-}
-
-.back-button > span {
-  color: #f0f0f0!important;
-  text-align: center;
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
-.back-button > span:hover {
-  color: #f0f0f0!important;
-  text-decoration: none!important;
-}
-
-.header {
-  text-align: center;
-  font-family: "Josefin Slab", serif;
-}
-
-#name, .section-header, .position {
-  font-family: "Josefin Slab", serif;
-}
-
-#name { font-size: 26pt; }
-
 .section-header {
+  width: 100%;
   font-size: 20pt;
+  font-family: 'Josefin', serif;
   text-align: center;
+  margin: 50px 0 50px 0;
 }
 
 .position {
   font-size: 14pt;
+  font-family: 'Josefin', serif;
 }
 
-#contact-info {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 12pt;
+#name {
+  font-size: 26pt!important;
 }
 
 a {
   text-decoration: none;
   color: inherit!important;
 }
+
 a:hover {
   text-decoration: none;
   border-bottom: 0.5px dotted darkgreen;
@@ -72,65 +50,25 @@ ul {
   list-style-type: circle;
 }
 
-.header-container, .work-experience-container, .education-container, .trainings-container, .awards-container, .references-container, .work-tile-container, .bio-container, .awards-main-page-container {
+.header-container, .work-tile-container, .bio-container, .awards-container {
   width: 100%;
-  padding: 25px;
+  padding: 40px 20px 55px 20px;
 }
 
-.header-container, .education-container, .awards-container, .bio-container {
+.header-container, .bio-container {
   background-color: #f0f0f0;
 }
 
-.work-experience, .education, .trainings, .awards, .references {
+.work-tiles, .awards-tiles {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.work-experience-tile, .education-tile, .awards-tile, .references-tile {
-  width: 30%;
-  border: 1px solid darkblue;
-  padding: 25px;
-  margin-bottom: 30px;
-  border-radius: 15px;
-  background: #f0f0f0;
-  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
-  vertical-align: middle;
-}
-
-.references-tile, .education-tile {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.training-name, .training-teacher, .training-date {
-  width: 15%;
-}
-
-tr:nth-child(odd) {
-  background-color: #f0f0f0;
-}
-
-.section-header-main {
-  width: 100%;
-  font-size: 20pt;
-  font-family: "Josefin Slab", serif;
-  text-align: center;
-  margin: 50px 0 50px 0;
-  
-}
-
-.work-tiles, .awards-main-page-tiles {
-  margin: 20px;
-  display: flex;
-  justify-content: space-around;
-}
-
 .work-tile {
-  width: 30%;
-  min-height: 250px;
+  width: 20%;
+  min-width: 250px;
+  min-height: 275px;
   border: 1px solid darkblue;
   padding: 15px;
   border-radius: 15px;
@@ -142,9 +80,9 @@ tr:nth-child(odd) {
   justify-content: space-between;
 }
 
-.work-tile-title, .awards-main-page-script {
+.work-tile-title, .awards-script {
   text-transform: uppercase;
-  font-family: "Josefin Slab", serif;
+  font-family: 'Josefin', serif;
   font-size: 14pt;
   text-align: center;
   margin: 15px 0 0 0;
@@ -152,7 +90,7 @@ tr:nth-child(odd) {
 
 .work-tile-title > span {
   font-size: 10pt!important;
-  font-family: "Open Sans Condensed"!important;
+  font-family: 'OpenSans'!important;
   text-transform: none!important;
 }
 
@@ -162,12 +100,10 @@ tr:nth-child(odd) {
 }
 
 .work-tile-meets {
-  font-family: "Josefin Slab", serif;
+  font-family: 'Josefin', serif;
   text-align: center;
   margin: 0 0 15px 0;
 }
-
-.bio-tiles {}
 
 .bio-tile {
   display: flex;
@@ -176,35 +112,34 @@ tr:nth-child(odd) {
 }
 
 .bio-text {
-  width: 50%;
+  width: 60%;
   text-align: justify;
   margin: 0 auto;
   margin-bottom: 48px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-size: 16pt;
+  line-height: 175%;
 }
 
-.extra-award-info, .reference-company, .type-of-script, #gpa, #minor {
+.extra-award-info {
   font-size: 10pt;
-  font-family: "Josefin Slab", serif;
+  font-family: 'Josefin', serif;
 }
 
-.degree {
-  font-family: "Josefin Slab", serif;
-  font-size: 14pt;
-  margin-bottom: 15px;
+#sub-heading {
+  font-size: 12pt;
+  font-family: 'OpenSans', serif;
+  margin-top: -20px;
 }
 
-.awards-main-page-tile {
-  width: 30%;
-  min-height: 100px;
+.awards-tile {
+  width: 20%;
+  min-width: 180px;
+  min-height: 80px;
   border: 1px solid darkblue;
-  padding: 15px;
+  padding: 20px 25px 20px 15px;
   border-radius: 15px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
