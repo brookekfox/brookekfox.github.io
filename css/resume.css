@@ -173,7 +173,7 @@ tr:nth-child(odd) {
 
   .work-experience-tile, .education-tile, .awards-tile, .references-tile {
     min-width: 200px!important;
-    margin: 0 auto!important;
+    margin: 10px auto!important;
   }
   
   .back-button {

@@ -187,6 +187,10 @@ ul {
     justify-content: center!important;
   }
   
+  .work-tile, .awards-tile {
+    margin: 10px auto!important;
+  }
+  
   .bio-pic {
     width: 100px!important;
     height: 100px!important;
@@ -198,5 +202,6 @@ ul {
   
   .bio-text {
     font-size: 12pt!important;
+    width: 75%!important;
   }
 }
