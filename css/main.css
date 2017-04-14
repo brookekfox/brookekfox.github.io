@@ -163,5 +163,5 @@ ul {
 }
 
 #matt-pic {
-  border: 1px solid white;
+  background-image: url('./images/matt.jpg');
 }
