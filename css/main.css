@@ -50,16 +50,16 @@ ul {
   list-style-type: circle;
 }
 
-.header-container, .work-tile-container, .bio-container, .awards-container {
+.header-container, .work-tile-container, .bio-container, .awards-container, .links-container {
   width: 100%;
   padding: 40px 20px 55px 20px;
 }
 
-.header-container, .bio-container {
+.header-container, .bio-container, .links-container {
   background-color: #f0f0f0;
 }
 
-.work-tiles, .awards-tiles {
+.work-tiles, .awards-tiles, .links-tiles {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -144,6 +144,32 @@ ul {
   margin: 20px;
 }
 
+.links-tile {
+  width: 10%;
+  min-width: 125px;
+  min-height: 90px;
+  border: 1px solid darkblue;
+  padding: 20px;
+  border-radius: 25px;
+  background: #f0f0f0;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.links-link > a {
+  font-size: 14pt;
+  text-align: center;
+}
+
 .bio-pics {
   display: flex;
   justify-content: center;
@@ -181,13 +207,13 @@ ul {
 }
 
 @media screen and (max-width: 500px) {
-  .work-tiles, .awards-tiles {
+  .work-tiles, .awards-tiles, .links-tiles {
     flex-direction: column!important;
     flex-wrap: nowrap!important;
     justify-content: center!important;
   }
   
-  .work-tile, .awards-tile {
+  .work-tile, .awards-tile, .links-tile {
     margin: 10px auto!important;
   }
   
