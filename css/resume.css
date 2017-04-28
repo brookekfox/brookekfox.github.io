@@ -64,6 +64,10 @@ body {
   font-size: 14pt;
 }
 
+.year {
+  font-size: 10pt;
+}
+
 #contact-info {
   font-family: 'OpenSans', sans-serif;
   font-size: 12pt;
@@ -90,6 +94,10 @@ ul {
 
 .header-container, .education-container, .awards-container {
   background-color: #f0f0f0;
+}
+
+.matt .awards-container {
+  background-color: white;
 }
 
 .work-experience, .education, .trainings, .awards, .references {
