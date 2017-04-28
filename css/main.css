@@ -55,7 +55,7 @@ ul {
   padding: 40px 20px 55px 20px;
 }
 
-.header-container, .bio-container, .links-container {
+div.container:nth-of-type(odd) {
   background-color: #f0f0f0;
 }
 

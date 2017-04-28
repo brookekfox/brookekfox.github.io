@@ -92,7 +92,7 @@ ul {
   padding: 40px 20px 40px 20px;
 }
 
-.header-container, .education-container, .awards-container {
+div.container:nth-of-type(odd) {
   background-color: #f0f0f0;
 }
 
