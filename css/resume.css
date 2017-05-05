@@ -104,22 +104,25 @@ div.container:nth-of-type(odd) {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 100px;
 }
 
 .work-experience-tile {
-  width: 25%;
-  min-width: 300px;
+  width: 20%;
+  min-width: 250px;
   min-height: 275px;
   border: 1px solid darkblue;
   padding: 35px;
   border-radius: 25px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
-  margin: 10px;
+  margin: 12px;
 }
 
 .education-tile, .awards-tile {
-  width: 30%;
+  width: 20%;
+  min-width: 250px;
+  min-height: 200px;
   border: 1px solid darkblue;
   padding: 35px;
   margin-bottom: 30px;
@@ -133,15 +136,21 @@ div.container:nth-of-type(odd) {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   width: 20%!important;
   min-width: 100px;
+  max-width: 250px;
   border: 1px solid darkblue;
   padding: 35px;
   margin-bottom: 30px;
   border-radius: 25px;
   background: #f0f0f0;
   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+}
+
+.references-tile span {
+  font-size: 16pt;
+  margin-bottom: 10px;
 }
 
 .education-tile {
@@ -151,7 +160,7 @@ div.container:nth-of-type(odd) {
   justify-content: space-between;
 }
 
-.degree {
+.degree, .script-title {
   font-family: 'Josefin', serif;
   font-size: 14pt;
   margin-bottom: 15px;
@@ -159,7 +168,7 @@ div.container:nth-of-type(odd) {
 
 .training-name, .training-teacher, .training-date {
   width: 15%;
-  font-size: 12pt;
+  font-size: 14pt;
   padding: 5px;
 }
 
