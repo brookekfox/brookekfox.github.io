@@ -186,6 +186,7 @@ tr:nth-child(odd) {
     flex-direction: column!important;
     flex-wrap: nowrap!important;
     justify-content: center!important;
+    padding: 0!important;
   }
 
   .work-experience-tile, .education-tile, .awards-tile, .references-tile {
@@ -201,6 +202,10 @@ tr:nth-child(odd) {
   
   .back-button > span {
     font-size: 10pt!important;
+  }
+  
+  li {
+    margin-left: -15px!important;
   }
 }
 
