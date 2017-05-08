@@ -56,8 +56,8 @@ body {
 #name { font-size: 26pt; }
 
 .section-header {
-  font-size: 20pt;
-  text-align: center;
+  font-size: 26pt;
+  margin-left: 30px;
 }
 
 .position {
@@ -68,9 +68,20 @@ body {
   font-size: 10pt;
 }
 
-#contact-info {
+.contact-info {
   font-family: 'OpenSans', sans-serif;
   font-size: 12pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-info > span {
+  margin: 0 7px 0 7px;
+}
+
+.contact-info > span i {
+  font-size: 10pt;
 }
 
 a {
@@ -79,13 +90,12 @@ a {
 }
 a:hover {
   text-decoration: none;
-  border-bottom: 0.5px dotted darkgreen;
+  border-bottom: 0.5px dotted darkblue;
   color: inherit!important;
 }
 
 ul {
   list-style-type: none;
-  /*margin-left: -5px;*/
   padding: 0;
 }
 
@@ -128,13 +138,14 @@ div.container:nth-of-type(odd) .tile {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 100px;
+  padding: 50px;
 }
 
 .work-experience-tile {
   width: 20%;
   min-width: 250px;
-  height: 325px;
+  /*height: 325px;*/
+  height: auto;
   border: 1px solid darkblue;
   padding: 35px;
   border-radius: 25px;
@@ -146,7 +157,8 @@ div.container:nth-of-type(odd) .tile {
 .education-tile, .awards-tile {
   width: 20%;
   min-width: 250px;
-  min-height: 200px;
+  /*height: 200px;*/
+  height: auto;
   border: 1px solid darkblue;
   padding: 35px;
   margin-bottom: 30px;
@@ -217,16 +229,30 @@ tr:nth-child(odd) {
   border-bottom: 0px!important;
 }
 
-.fa:hover {
+.link-tile .fa:hover {
   color: darkgray;
 }
 
 @media screen and (max-width: 500px) {
+  .section-header {
+    font-size: 24pt;
+    text-align: center;
+    margin: 20px auto;
+  }
+
   .work-experience, .education, .trainings, .awards, .references {
     flex-direction: column!important;
     flex-wrap: nowrap!important;
     justify-content: center!important;
     padding: 0!important;
+  }
+  
+  .work-experience-tile, .education-tile, .awards-tile, .references-tile {
+    height: auto;
+  }
+
+  .contact-info {
+    flex-direction: column;
   }
 
   .links {

@@ -42,7 +42,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  border-bottom: 0.5px dotted darkgreen;
+  border-bottom: 0.5px dotted darkblue;
   color: inherit!important;
 }
 
