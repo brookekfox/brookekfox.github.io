@@ -47,7 +47,31 @@ a:hover {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
+  /*margin-left: -5px;*/
+  padding: 0;
+}
+
+li {
+  padding-left: 0.75em;
+}
+
+li:before {
+  content: "\f105"; /* FontAwesome Unicode */
+  font-size: 80%;
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -0.75em;
+  width: 0.75em;
+}
+
+.tile {
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.tile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .header-container, .work-tile-container, .bio-container, .awards-container, .links-container {
@@ -59,6 +83,10 @@ div.container:nth-of-type(odd) {
   background-color: #f0f0f0;
 }
 
+div.container:nth-of-type(odd) .tile {
+  background-color: #f6f6f6;
+}
+
 .work-tiles, .awards-tiles, .links-tiles {
   display: flex;
   justify-content: center;
@@ -68,7 +96,7 @@ div.container:nth-of-type(odd) {
 .work-tile {
   width: 20%;
   min-width: 250px;
-  min-height: 275px;
+  min-height: 325px;
   border: 1px solid darkblue;
   padding: 15px;
   border-radius: 25px;
@@ -117,7 +145,7 @@ div.container:nth-of-type(odd) {
   margin: 0 auto;
   margin-bottom: 48px;
   font-family: 'OpenSans', sans-serif;
-  font-size: 16pt;
+  font-size: 15pt;
   line-height: 175%;
 }
 
@@ -134,8 +162,8 @@ div.container:nth-of-type(odd) {
 
 .awards-tile {
   width: 20%;
-  min-width: 180px;
-  min-height: 80px;
+  min-width: 200px;
+  height: 200px;
   border: 1px solid darkblue;
   padding: 20px 25px 20px 15px;
   border-radius: 25px;
@@ -182,6 +210,7 @@ div.container:nth-of-type(odd) {
   margin: 0 5% 50px 5%;
   background-size: cover;
   background-position: center;
+  filter: grayscale(100%);
 }
 
 #mike-pic {
@@ -201,18 +230,12 @@ div.container:nth-of-type(odd) {
   font-size: 9pt;
   font-family: 'OpenSans', serif;
   position: absolute;
+  bottom: -20px;
   width: 100px;
 }
 
-#mike-resume-message {
-  bottom: -20px;
-  left: 20px;
-}
-
-#matt-resume-message {
-  bottom: -20px;
-  left: 52px;
-}
+#mike-resume-message { left: 20px; }
+#matt-resume-message { left: 52px; }
 
 @media screen and (max-width: 500px) {
   .work-tiles, .awards-tiles, .links-tiles {
@@ -232,6 +255,7 @@ div.container:nth-of-type(odd) {
     margin: 0 5% 50px 5%!important;
     background-size: cover!important;
     background-position: center!important;
+    filter: grayscale(100%);
   }
   
   .bio-text {
