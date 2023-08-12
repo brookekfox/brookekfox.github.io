@@ -106,11 +106,11 @@
       class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex justify-between align-middle items-center"
     >
       <h2 class="font-bold text-2xl">Education</h2>
-      <img
+      <!-- <img
         src={louie}
         class="h-12"
         alt="Northern Arizona University Louie the Lumberjack logo"
-      />
+      /> -->
     </div>
     <div
       class="text-primary w-full border-1 border-primary flex flex-col justify-start align-middle items-center mr-2"

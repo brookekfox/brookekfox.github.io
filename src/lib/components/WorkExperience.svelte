@@ -40,9 +40,9 @@
 
     {#if technologies !== ""}
       <div
-        class="flex flex-col justify-between align-top items-start text-left md:text-justify p-4 bg-accent text-primary"
+        class="flex flex-col justify-between align-top items-start text-left md:text-justify p-4 bg-accent text-white"
       >
-        <div class="italic">Technologies: {technologies}</div>
+        <div class="italic" style="font-size:x-small">{technologies}</div>
       </div>
     {/if}
   </div>
