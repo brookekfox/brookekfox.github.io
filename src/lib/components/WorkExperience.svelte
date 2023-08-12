@@ -9,16 +9,11 @@
   export let technologies = "";
 
   const screenSize = "md";
-  const widthLargeScreenSize =
-    "@media (min-width: 768px) { width: 200px !important; }";
-  const widthSmallScreenSize =
-    "@media (min-width: 640px) { width: 100% !important; }";
 </script>
 
 <div class="flex flex-col {screenSize}:flex-row !w-full mx-4 mb-4 mt-4">
   <div
     class="flex flex-row justify-center align-middle items-center text-primary bg-accent-2 p-4 border-2 border-secondary text-xl font-bold"
-    style={widthLargeScreenSize}
   >
     {company}
   </div>
