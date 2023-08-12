@@ -15,7 +15,7 @@
 <main
   class="flex flex-col justify-center align-middle items-center p-4 md:p-16"
 >
-  <div class="border-2 border-primary w-full mb-2">
+  <div class="border-2 border-primary w-full mb-6 md:mb-12">
     <div
       class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex md:flex-row flex-col justify-between align-middle items-center"
     >
@@ -39,12 +39,12 @@
     <div
       class="text-xs text-primary p-4 flex flex-row justify-center items-center align-middle w-full"
     >
-      Focused, driven, and efficient software engineer focused on building
-      backend solutions, including APIs, infrastructure as code, and CI/CD.
+      Driven and efficient software engineer focused on building backend
+      solutions, including APIs, infrastructure as code, and CI/CD.
     </div>
   </div>
 
-  <div class="border-2 border-primary w-full mb-6">
+  <div class="border-2 border-primary w-full mb-6 md:mb-12">
     <div
       class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
     >
@@ -74,7 +74,7 @@
     </div>
   </div>
 
-  <div class="border-2 border-primary w-full mb-6">
+  <div class="border-2 border-primary w-full mb-6 md:mb-12">
     <div
       class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
     >
@@ -101,35 +101,7 @@
     </div>
   </div>
 
-  <div class="border-2 border-primary w-full mb-6">
-    <div
-      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
-    >
-      <h2 class="font-bold text-2xl">Other Work Experience</h2>
-    </div>
-    <div
-      class="text-primary w-full border-1 border-primary flex flex-row flex-wrap justify-between align-middle items-center"
-    >
-      <WorkExperience
-        company="STAR Prep Academy"
-        location="Los Angeles, CA"
-        startDate="Dec 2015"
-        endDate="Dec 2016"
-        position="High School Mathematics Teacher"
-        description="Taught 9th through 12th grade mathematics (Algebra 1 through Calculus). Taught web development and physical education electives. Supervised field trips, service projects, and overnight trips."
-      />
-      <WorkExperience
-        company="Northern Arizona University"
-        location="Flagstaff, AZ"
-        startDate="Aug 2012"
-        endDate="May 2014"
-        position="Graduate Teaching Instructor"
-        description={nauDescription}
-      />
-    </div>
-  </div>
-
-  <div class="border-2 border-primary w-full mb-6">
+  <div class="border-2 border-primary w-full mb-6 md:mb-12">
     <div
       class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex justify-between align-middle items-center"
     >
@@ -158,7 +130,35 @@
     </div>
   </div>
 
-  <div class="border-2 border-primary w-full mb-6">
+  <div class="border-2 border-primary w-full mb-6 md:mb-12">
+    <div
+      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
+    >
+      <h2 class="font-bold text-2xl">Other Work Experience</h2>
+    </div>
+    <div
+      class="text-primary w-full border-1 border-primary flex flex-row flex-wrap justify-between align-middle items-center"
+    >
+      <WorkExperience
+        company="STAR Prep Academy"
+        location="Los Angeles, CA"
+        startDate="Dec 2015"
+        endDate="Dec 2016"
+        position="High School Mathematics Teacher"
+        description="Taught 9th through 12th grade mathematics (Algebra 1 through Calculus). Taught web development and physical education electives. Supervised field trips, service projects, and overnight trips."
+      />
+      <WorkExperience
+        company="Northern Arizona University"
+        location="Flagstaff, AZ"
+        startDate="Aug 2012"
+        endDate="May 2014"
+        position="Graduate Teaching Instructor"
+        description={nauDescription}
+      />
+    </div>
+  </div>
+
+  <div class="border-2 border-primary w-full mb-6 md:mb-12">
     <div
       class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
     >
