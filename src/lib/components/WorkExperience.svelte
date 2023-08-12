@@ -31,7 +31,7 @@
 
     {#if description !== "" || descriptionSecondary !== ""}
       <div
-        class="flex flex-col justify-between align-top items-start text-justify p-4"
+        class="flex flex-col justify-between align-top items-start text-left md:text-justify p-4"
       >
         <div>{description}</div>
         <div class="mt-2 italic">{descriptionSecondary}</div>
@@ -40,7 +40,7 @@
 
     {#if technologies !== ""}
       <div
-        class="flex flex-col justify-between align-top items-start text-justify p-4 bg-accent text-primary"
+        class="flex flex-col justify-between align-top items-start text-left md:text-justify p-4 bg-accent text-primary"
       >
         <div class="italic">Technologies: {technologies}</div>
       </div>
