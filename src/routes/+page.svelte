@@ -10,29 +10,29 @@
     "Started as an associate software engineer and was promoted to software engineer I, software engineer II, software engineer III, and senior software engineer within 5 1/2 years.";
   const nauDescription =
     "Prepared and delivered class lectures, homework assignments, and exams in computer-based and traditional, lecture-based settings as the primary instructor. Met with students outside of class. Supervised undergraduate tutors and TAs. Attended weekly course coordination meetings. Administered all grades. Two sections per semester of MAT100 Mathematics Pathway, MAT119 Finite Mathematics, and/or MAT125 Precalculus.";
-
-  const screenSize = "md";
 </script>
 
 <main
-  class="flex flex-col justify-center align-middle items-center p-4 {screenSize}:p-16"
+  class="flex flex-col justify-center align-middle items-center p-4 md:p-16"
 >
   <div class="border-2 border-primary w-full mb-2">
     <div
-      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex {screenSize}:flex-row flex-col justify-between align-middle items-center"
+      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex md:flex-row flex-col justify-between align-middle items-center"
     >
-      <h1 class="font-bold text-3xl">Brooke Fox</h1>
-      <span class="italic text-xs">Staff Software Engineer</span>
-      <div
-        class="text-xs flex flex-col justify-evenly align-middle items-center {screenSize}:items-end"
+      <h1 class="font-bold text-3xl mb-2 md:mb-0">Brooke Fox</h1>
+      <span class="italic text-sm md:text-xs mb-2 md:mb-0"
+        >Staff Software Engineer</span
       >
-        <span class="mr-2 {screenSize}:mr-0"
+      <div
+        class="text-xs flex flex-col justify-evenly align-middle items-center md:items-end"
+      >
+        <span class="mr-2 md:mr-0"
           ><a href="mailto:brookekfox@gmail.com">
             brooke.k.fox@gmail.com
           </a></span
         >
-        <span class="mr-2 {screenSize}:mr-0">602.463.4440</span>
-        <span class="mr-2 {screenSize}:mr-0">Los Angeles, CA</span>
+        <span class="mr-2 md:mr-0">602.463.4440</span>
+        <span class="mr-2 md:mr-0">Los Angeles, CA</span>
       </div>
     </div>
 
@@ -46,7 +46,7 @@
 
   <div class="border-2 border-primary w-full mb-6">
     <div
-      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col {screenSize}:flex-row justify-between align-middle items-center"
+      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
     >
       <h2 class="font-bold text-2xl">Work Experience</h2>
     </div>
@@ -76,7 +76,7 @@
 
   <div class="border-2 border-primary w-full mb-6">
     <div
-      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col {screenSize}:flex-row justify-between align-middle items-center"
+      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
     >
       <h2 class="font-bold text-2xl">Certificates</h2>
     </div>
@@ -103,7 +103,7 @@
 
   <div class="border-2 border-primary w-full mb-6">
     <div
-      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col {screenSize}:flex-row justify-between align-middle items-center"
+      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
     >
       <h2 class="font-bold text-2xl">Other Work Experience</h2>
     </div>
@@ -160,7 +160,7 @@
 
   <div class="border-2 border-primary w-full mb-6">
     <div
-      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col {screenSize}:flex-row justify-between align-middle items-center"
+      class="text-primary p-4 w-full border-1 border-primary bg-accent-2 flex flex-col md:flex-row justify-between align-middle items-center"
     >
       <h2 class="font-bold text-2xl">Community</h2>
     </div>

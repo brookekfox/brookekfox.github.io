@@ -7,13 +7,11 @@
   export let description = "";
   export let descriptionSecondary = "";
   export let technologies = "";
-
-  const screenSize = "md";
 </script>
 
-<div class="flex flex-col {screenSize}:flex-row !w-full mx-4 mb-4 mt-4">
+<div class="flex flex-col md:flex-row !w-full mx-4 mb-4 mt-4">
   <div
-    class="flex flex-row justify-center align-middle items-center text-primary bg-accent-2 p-4 border-2 border-secondary text-xl font-bold"
+    class="md:w-56 md:min-w-56 md:max-w-56 flex flex-row justify-center align-middle items-center text-primary bg-accent-2 p-4 border-2 border-secondary text-xl font-bold"
   >
     {company}
   </div>
