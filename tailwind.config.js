@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {},
     minWidth: {
-      '52': '13rem',
-      '56': '14rem',
+      52: "13rem",
+      56: "14rem",
     },
     maxWidth: {
-      '52': '13rem',
-      '56': '14rem',
+      52: "13rem",
+      56: "14rem",
     },
   },
   plugins: [],
