@@ -4,7 +4,7 @@
 
 body {
   width: 100%;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 16px;
 }
 
@@ -13,42 +13,54 @@ const green="#33BBC5";
 const light-green="#85E6C5";
 const aqua="#C8FFE0"; */
 
-.text-purple, .text-primary {
-  color: #614BC3;
+.text-purple,
+.text-primary {
+  color: #614bc3;
 }
-.bg-purple, .bg-primary {
-  background-color: #614BC3;
+.bg-purple,
+.bg-primary {
+  background-color: #614bc3;
 }
-.border-purple, .border-primary {
-  border-color: #614BC3;
-}
-
-.text-green, .text-secondary {
-  color: #33BBC5;
-}
-.bg-green, .bg-secondary {
-  background-color: #33BBC5;
-}
-.border-green, .border-secondary {
-  border-color: #33BBC5;
+.border-purple,
+.border-primary {
+  border-color: #614bc3;
 }
 
-.text-light-green, .text-accent {
-  color: #85E6C5;
+.text-green,
+.text-secondary {
+  color: #33bbc5;
 }
-.bg-light-green, .bg-accent {
-  background-color: #85E6C5;
+.bg-green,
+.bg-secondary {
+  background-color: #33bbc5;
 }
-.border-light-green, .border-accent {
-  border-color: #85E6C5;
+.border-green,
+.border-secondary {
+  border-color: #33bbc5;
 }
 
-.text-aqua, .text-accent-2 {
-  color: #C8FFE0;
+.text-light-green,
+.text-accent {
+  color: #85e6c5;
 }
-.bg-aqua, .bg-accent-2 {
-  background-color: #C8FFE0;
+.bg-light-green,
+.bg-accent {
+  background-color: #85e6c5;
 }
-.border-aqua, .border-accent-2 {
-  border-color: #C8FFE0;
+.border-light-green,
+.border-accent {
+  border-color: #85e6c5;
+}
+
+.text-aqua,
+.text-accent-2 {
+  color: #c8ffe0;
+}
+.bg-aqua,
+.bg-accent-2 {
+  background-color: #c8ffe0;
+}
+.border-aqua,
+.border-accent-2 {
+  border-color: #c8ffe0;
 }
